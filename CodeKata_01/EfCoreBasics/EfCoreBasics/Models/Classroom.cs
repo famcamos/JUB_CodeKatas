@@ -12,7 +12,7 @@ namespace EfCoreBasics.Models
     [Index(nameof(Name), IsUnique = true)]
     public class Classroom
     {
-        [Column(TypeName ="ClassroomNumber")]
+        [Column("ClassroomNumber")]
         [Key]
         public int ClassroomId { get; set; }
         public string Name { get; set; }

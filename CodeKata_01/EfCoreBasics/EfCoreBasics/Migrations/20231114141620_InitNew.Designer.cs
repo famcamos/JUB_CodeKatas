@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EfCoreBasics.Migrations
 {
     [DbContext(typeof(SchoolContext))]
-    [Migration("20231114140109_AddEntityProperties")]
-    partial class AddEntityProperties
+    [Migration("20231114141620_InitNew")]
+    partial class InitNew
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -29,7 +29,8 @@ namespace EfCoreBasics.Migrations
                 {
                     b.Property<int>("ClassroomId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("ClassroomNumber");
+                        .HasColumnType("int")
+                        .HasColumnName("ClassroomNumber");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClassroomId"));
 
@@ -63,7 +64,7 @@ namespace EfCoreBasics.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("ClassroomId")
-                        .HasColumnType("ClassroomNumber");
+                        .HasColumnType("int");
 
                     b.Property<string>("Classyear")
                         .IsRequired()

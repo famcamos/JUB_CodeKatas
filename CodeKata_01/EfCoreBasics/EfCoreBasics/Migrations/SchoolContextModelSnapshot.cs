@@ -26,7 +26,8 @@ namespace EfCoreBasics.Migrations
                 {
                     b.Property<int>("ClassroomId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("ClassroomNumber");
+                        .HasColumnType("int")
+                        .HasColumnName("ClassroomNumber");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClassroomId"));
 
@@ -60,7 +61,7 @@ namespace EfCoreBasics.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("ClassroomId")
-                        .HasColumnType("ClassroomNumber");
+                        .HasColumnType("int");
 
                     b.Property<string>("Classyear")
                         .IsRequired()

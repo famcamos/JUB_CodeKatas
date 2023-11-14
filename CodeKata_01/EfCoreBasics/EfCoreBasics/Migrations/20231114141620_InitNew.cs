@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace EfCoreBasics.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class InitNew : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,14 +15,14 @@ namespace EfCoreBasics.Migrations
                 name: "Classrooms",
                 columns: table => new
                 {
-                    ClassroomId = table.Column<int>(type: "int", nullable: false)
+                    ClassroomNumber = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Seats = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Classrooms", x => x.ClassroomId);
+                    table.PrimaryKey("PK_Classrooms", x => x.ClassroomNumber);
                 });
 
             migrationBuilder.CreateTable(
@@ -31,11 +31,15 @@ namespace EfCoreBasics.Migrations
                 {
                     StudentId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Classyear = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Classyear = table.Column<string>(type: "varchar(15)", maxLength: 15, nullable: false),
                     Birthdate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    ClassroomId = table.Column<int>(type: "int", nullable: false)
+                    ClassroomId = table.Column<int>(type: "int", nullable: false),
+                    Country = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    City = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Street = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    HouseNumber = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -44,9 +48,15 @@ namespace EfCoreBasics.Migrations
                         name: "FK_Students_Classrooms_ClassroomId",
                         column: x => x.ClassroomId,
                         principalTable: "Classrooms",
-                        principalColumn: "ClassroomId",
+                        principalColumn: "ClassroomNumber",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Classrooms_Name",
+                table: "Classrooms",
+                column: "Name",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_Students_ClassroomId",
