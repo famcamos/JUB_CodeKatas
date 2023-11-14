@@ -2855,19 +2855,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jub\\.nuget\\packages\\": {}
+    "C:\\Users\\fam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jub\\Desktop\\Git-Repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreResult\\EfCoreResult.csproj",
+      "projectUniqueName": "C:\\Users\\fam\\Source\\Repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreResult\\EfCoreResult.csproj",
       "projectName": "EfCoreResult",
-      "projectPath": "C:\\Users\\jub\\Desktop\\Git-Repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreResult\\EfCoreResult.csproj",
-      "packagesPath": "C:\\Users\\jub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jub\\Desktop\\Git-Repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreResult\\obj\\",
+      "projectPath": "C:\\Users\\fam\\Source\\Repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreResult\\EfCoreResult.csproj",
+      "packagesPath": "C:\\Users\\fam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fam\\Source\\Repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreResult\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2924,7 +2924,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EfCoreBasics.Data;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,8 @@ namespace EfCoreBasics
 
         public static void Main(string[] args)
         {
-
+            var context = new SchoolContext();
+            context.Database.EnsureCreated();
             //createFakeData(context);
 
         }
