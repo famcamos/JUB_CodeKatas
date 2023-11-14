@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ezmV7qnLMilwLTItuqoQ7gswHyOaNklHM+rFD1q56zup9+AoXOuK6g+r5YprUFyVUw4Rgxze3Ml1VDEG2JvIgQ==",
+  "dgSpecHash": "OXGZSDgBpXWkQqBjyrkDv9WovvZNX8PyohNJMwpWi7+c3lHN1t9sY1Krkn2tXE8RJGaWYza0rCiYMH/e3KYblg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fam\\Source\\Repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreBasics\\EfCoreBasics.csproj",
+  "projectFilePath": "C:\\Users\\fam\\source\\repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreBasics\\EfCoreBasics.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fam\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\fam\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

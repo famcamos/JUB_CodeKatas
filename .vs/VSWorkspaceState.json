@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CodeKata_01",
+    "\\CodeKata_01\\EfCoreBasics",
+    "\\CodeKata_01\\EfCoreBasics\\EfCoreBasics",
+    "\\CodeKata_01\\EfCoreBasics\\EfCoreResult"
   ],
-  "SelectedNode": "\\C:\\Users\\fam\\Source\\Repos\\JUB_CodeKatas",
+  "SelectedNode": "\\CodeKata_01\\EfCoreBasics\\EfCoreResult\\Start.cs",
   "PreviewInSolutionExplorer": false
 }

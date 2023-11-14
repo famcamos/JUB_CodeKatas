@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fam\\Source\\Repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreBasics\\EfCoreBasics.csproj": {}
+    "C:\\Users\\fam\\source\\repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreBasics\\EfCoreBasics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fam\\Source\\Repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreBasics\\EfCoreBasics.csproj": {
+    "C:\\Users\\fam\\source\\repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreBasics\\EfCoreBasics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fam\\Source\\Repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreBasics\\EfCoreBasics.csproj",
+        "projectUniqueName": "C:\\Users\\fam\\source\\repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreBasics\\EfCoreBasics.csproj",
         "projectName": "EfCoreBasics",
-        "projectPath": "C:\\Users\\fam\\Source\\Repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreBasics\\EfCoreBasics.csproj",
+        "projectPath": "C:\\Users\\fam\\source\\repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreBasics\\EfCoreBasics.csproj",
         "packagesPath": "C:\\Users\\fam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fam\\Source\\Repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreBasics\\obj\\",
+        "outputPath": "C:\\Users\\fam\\source\\repos\\JUB_CodeKatas\\CodeKata_01\\EfCoreBasics\\EfCoreBasics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fam\\AppData\\Roaming\\NuGet\\NuGet.Config",
